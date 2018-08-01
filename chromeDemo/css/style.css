@@ -1,0 +1,51 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+ul li{
+	text-decoration: none;
+	
+}
+.button_row{
+	margin: 10px auto;
+}
+.button_row button{
+	    width: 45%;
+    margin: 0 2%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 2px;
+    animation: all 1s;
+    height: 40px;
+		animation: all 1s;	
+	
+}
+.button_row button:hover{
+	border: 1px solid white;
+	background-color: blueviolet;
+	color: white;
+	animation: all 1s;	
+}
+.main {
+	overflow: hidden;
+}
+.main .add_num{
+	    width: 95%;
+    margin: 0 2%;
+    box-sizing: border-box;
+    height: 40px;
+
+}
+.border_top{
+	font-size: 30px;
+	margin: 10px 10px;
+	padding: 10px 0px;
+	border-bottom:2px solid blueviolet;
+	
+}
